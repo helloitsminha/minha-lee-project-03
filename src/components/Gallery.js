@@ -38,7 +38,7 @@ const Gallery = () => {
 
                     }
                 </ul> {/* end of .recipeBox */}
-                <a className='refresh' href=''>I want different options!</a>
+                <a className='refresh' href='.'>I want different options!</a>
             </div>{/* // end of .wrapper */}
 
 
