@@ -11,7 +11,7 @@ const Gallery = () => {
             method: 'GET',
             dataResponse: 'json',
             params: {
-                apiKey: '6540b4ba6dce481f87d862fb58adc153',
+                apiKey: 'b94e385054d044efa9b9bcc4f949a526',
                 number: 5,
                 limitLicense: true,
             },
@@ -38,9 +38,10 @@ const Gallery = () => {
 
                     }
                 </ul> {/* end of .recipeBox */}
+                <a className='refresh' href=''>I want different options!</a>
             </div>{/* // end of .wrapper */}
 
-            <a href=''>I want different options!</a>
+
         </section>
     )
 };

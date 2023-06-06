@@ -10,4 +10,116 @@ html { box-sizing: border-box;}
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
 
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Pacifico&display=swap');
 
+html {
+  font-size: 125%;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h2, h3, p {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* base styles */
+.wrapper {
+  max-width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+html {
+  background-color: #f4ebd0;
+  padding: 500px, 0, 0, 0;
+  /* margin-top: -500px; */
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* header styles */
+h1 {
+  color: #0000BF;
+  font-size: 6rem;
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  line-height: 2rem;
+  margin-top: 0;
+  margin-bottom: 80.4px;
+}
+header h2 {
+  font-size: 2.5rem;
+  color: #e1ad01;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* gallery styles */
+
+ul {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  max-width: 500px;
+  display: flex;
+  align-items: end;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: #800020;
+  line-height: 1.8rem;
+}
+
+div {
+  /* height: 70vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #800020;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+a:focus {
+  text-decoration: underline;
+}
+
+.refresh {
+  font-family: 'Pacifico', cursive;
+  color: #0000BF;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.refresh:hover {
+  text-decoration: underline;
+}
+
+.refresh:focus {
+  text-decoration: underline;
+}
