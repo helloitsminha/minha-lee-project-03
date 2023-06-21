@@ -25,7 +25,7 @@ const Form = ({onSubmit}) => {
     return (
         <div className="wrapper">
             <form onSubmit={handleSubmit}>
-                <label htmlFor="noOfRecipes">How many options do we want tonight?</label>
+                <label htmlFor="noOfRecipes">How many options do we want?</label>
                 <select
                     value={userChoice}
                     onChange={handleChange}
