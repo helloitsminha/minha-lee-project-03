@@ -45,7 +45,7 @@ const Form = ({onSubmit}) => {
                     <option value="9">9</option>
                     <option value="10">10</option>
                 </select>
-                <button>Show me what's for dinner!</button>
+                <button>Show me what to make!</button>
                 <h2 id='header2'>May I suggest you make...</h2>
             </form>
         </div>

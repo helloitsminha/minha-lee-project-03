@@ -10,6 +10,15 @@ import { useEffect, useState } from 'react';
 function App() {
   const [recipes, setRecipes] = useState([]);
 
+  const visible = () => {
+    var x = document.getElementById('refresh');
+    if (x.style.visibility === "hidden") {
+      x.style.visibility = 'visible'
+    } else {
+      x.style.visibility = 'visible'
+    }
+  }
+
   const fetchRecipes = async (noOfRecipes) => {
     const url = new URL('https://api.spoonacular.com/recipes/random');
     url.search = new URLSearchParams({
@@ -21,6 +30,7 @@ function App() {
       const response = await fetch(url);
       const apiData = await response.json();
       setRecipes(apiData.recipes);
+      visible();
     } catch (error) {
       console.log(error);
     }

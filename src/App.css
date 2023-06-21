@@ -27,7 +27,7 @@ h2, h3, p, form, form select {
 /* base styles */
 .wrapper {
   max-width: 1260px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -148,20 +148,6 @@ a:focus {
   text-decoration: underline;
 }
 
-.refresh {
-  color: #0000BF;
-  font-size: 2rem;
-  text-align: center;
-  margin-bottom: 120px;
-}
-
-.refresh:hover {
-  text-decoration: underline;
-}
-
-.refresh:focus {
-  text-decoration: underline;
-}
 
 /* footer styles */
 footer {
@@ -169,4 +155,107 @@ footer {
   text-align: center;
   color: #f4ebd0;
 
+}
+
+/* media queries */
+/* max width 1080px and smaller to prefent header breaking */
+@media (max-width: 1080px) {
+  h1 {
+    font-size: 8.5rem;
+  }
+  header p {
+    font-size: 1.5rem;
+  }
+  form h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* 940px and smaller */
+@media (max-width: 940px) {
+  h1 {
+    font-size: 7.8rem;
+  }
+
+  header p {
+    font-size: 1.5rem;
+  }
+
+  form h2 {
+    font-size: 1.5rem;
+  }
+  form button {
+    padding-top: 10px;
+  }
+}
+
+/* 768px and smaller */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 6.7rem;
+  }
+
+  header p {
+    font-size: 1.2rem;
+  }
+
+  form h2 {
+    font-size: 1.2rem;
+  }
+
+  form button {
+    padding-top: 10px;
+  }
+}
+
+/* 630px and smaller */
+@media (max-width: 630px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  form h2 {
+    font-size: 1rem;
+  }
+  
+  form select {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  form button {
+    padding-top: 10px;
+  }
+
+  h3 {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  li {
+    max-width: 80%;
+  }
+  
+  footer {
+    font-size: 0.7rem;
+  }
+}
+
+/* 480px and smaller, just resizing header */
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 4.3rem;
+      }
 }

@@ -20,7 +20,6 @@ const Gallery = ({recipes} ) => {
 
                     }
                 </ul> {/* end of .recipeBox */}
-                <a className='refresh' href='.'><span className='sr-only'>click to refresh app</span>I'm overwhelmed... Let's start again!</a>
             </div> {/* // end of .wrapper */}
 
 
