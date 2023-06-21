@@ -1,6 +1,8 @@
 import Item from './Item'
 
+
 const Gallery = ({recipes} ) => {
+
     return (
         <section>
             <div className="wrapper">
@@ -18,7 +20,7 @@ const Gallery = ({recipes} ) => {
 
                     }
                 </ul> {/* end of .recipeBox */}
-                <a className='refresh' href='.'>I'm overwhelmed... Let's start again!</a>
+                <a className='refresh' href='.'><span className='sr-only'>click to refresh app</span>I'm overwhelmed... Let's start again!</a>
             </div> {/* // end of .wrapper */}
 
 

@@ -4,8 +4,18 @@ import { useState } from "react";
 const Form = ({onSubmit}) => {
     const [userChoice, setUserChoice] = useState(0);
 
+    const unhide = () => {
+        var x = document.getElementById('header2');
+        if (x.style.visibility === "hidden") {
+            x.style.visibility = 'visible'
+        } else {
+            x.style.visibility = 'visible'
+        }
+    }
+
     const handleSubmit = (event) => {
         event.preventDefault();
+        unhide();
         onSubmit(userChoice);
     };
     
@@ -36,6 +46,7 @@ const Form = ({onSubmit}) => {
                     <option value="10">10</option>
                 </select>
                 <button>Show me what's for dinner!</button>
+                <h2 id='header2'>May I suggest you make...</h2>
             </form>
         </div>
 

@@ -16,11 +16,11 @@ html {
   font-size: 125%;
 }
 
-h1 {
+h1, .refresh, form button {
   font-family: 'Pacifico', cursive;
 }
 
-h2, h3, p {
+h2, h3, p, form, form select {
   font-family: 'Comfortaa', cursive;
 }
 
@@ -45,24 +45,64 @@ li {
   list-style: none;
 }
 
+form button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+}
+
 /* header styles */
 h1 {
   color: #0000BF;
-  font-size: 6rem;
-  text-align: center;
+  font-size: 10rem;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 header p {
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.5rem;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 80.4px;
 }
-header h2 {
+
+/* form styles */
+form h2 {
   font-size: 2.5rem;
   color: #e1ad01;
   margin-bottom: 40px;
   text-align: center;
+  visibility: hidden;
+  margin-top: 80px;
+}
+
+form {
+  text-align: center;
+
+}
+
+form select {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #e1ad01;
+}
+
+form button {
+  color: #800020;
+  font-size: 1.5rem;
+}
+
+form button:hover {
+  text-decoration: underline;
+}
+
+form button:focus {
+  text-decoration: underline;
 }
 
 /* gallery styles */
@@ -109,7 +149,6 @@ a:focus {
 }
 
 .refresh {
-  font-family: 'Pacifico', cursive;
   color: #0000BF;
   font-size: 2rem;
   text-align: center;
@@ -122,4 +161,12 @@ a:focus {
 
 .refresh:focus {
   text-decoration: underline;
+}
+
+/* footer styles */
+footer {
+  background-color: #800020;
+  text-align: center;
+  color: #f4ebd0;
+
 }

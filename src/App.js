@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import Gallery from './components/Gallery';
 import Form from './components/Form';
+import Footer from './components/Footer';
+
 import './App.css';
 
 import { useEffect, useState } from 'react';
@@ -29,6 +31,7 @@ function App() {
         <Header />
         <Form onSubmit={fetchRecipes} />
         <Gallery recipes={recipes}/>
+        <Footer />
       </main>
     )
 }
