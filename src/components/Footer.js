@@ -3,7 +3,7 @@ const Footer = () => {
         <footer>
             <div className="wrapper">
                 <p>Made with love by Minha at Juno College</p>
-            </div>
+            </div>{/* end of .wrapper */}
         </footer>
     )
 }

@@ -16,7 +16,7 @@ html {
   font-size: 125%;
 }
 
-h1, .refresh, form button {
+h1, form button {
   font-family: 'Pacifico', cursive;
 }
 
@@ -34,7 +34,6 @@ h2, h3, p, form, form select {
 html {
   background-color: #f4ebd0;
   padding: 500px, 0, 0, 0;
-  /* margin-top: -500px; */
 }
 
 ul {
@@ -129,7 +128,6 @@ h3 {
 }
 
 div {
-  /* height: 70vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -43,11 +43,11 @@ const Form = ({onSubmit}) => {
                     <option value="8">8</option>
                     <option value="9">9</option>
                     <option value="10">10</option>
-                </select>
+                </select>{/* end of select */}
                 <button>Show me what to make!</button>
                 <h2 id='header2'>May I suggest you make...</h2>
             </form>
-        </div>
+        </div>// end of .wrapper
 
     );
 };
